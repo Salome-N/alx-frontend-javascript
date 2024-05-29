@@ -8,5 +8,5 @@ export default async function asyncUploadUser() {
     photo = null;
     user = null;
   }
-  return Promise.resolve({ photo, user });
+  return { photo, user };
 }
